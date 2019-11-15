@@ -1,5 +1,17 @@
 //app.js
 App({
+
+  //全局变量
+  globalData: {
+    userInfo: null,
+    host: 'http://192.168.10.194:8080/data.json',
+    appID: 'wxe93975272d722500',
+    appSecret: '75cf530c1df842104b5268acc54da5c9',
+    template_id: "lmHGtqYb3IRj9IeAsrKb7OuZdyyhcTqS3ONVLLkA_jQ",
+    openid: null,
+    ACCESS_TOKEN: null,
+  },
+
   onLaunch: function () {
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []

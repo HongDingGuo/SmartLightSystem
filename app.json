@@ -1,14 +1,32 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/weibao/weibao",
     "pages/logs/logs",
-    "pages/weibao/weibao"
+    "pages/userinfo/userinfo"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/weibao/weibao",
+        "text": "维保",
+        "iconPath": "images/i_home_normal.png",
+        "selectedIconPath": "images/i_home_pressed.png"
+      },
+      {
+        "pagePath": "pages/userinfo/userinfo",
+        "text": "我的",
+        "iconPath": "images/i_join_normal.png",
+        "selectedIconPath": "images/i_join_pressed.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
